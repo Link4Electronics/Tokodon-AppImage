@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.kde.tokodon.svg
 export DESKTOP=/usr/share/applications/org.kde.tokodon.desktop
+export STARTUPWMCLASS=org.kde.tokodon
 export DEPLOY_QT=1
 export QT_DIR=qt6
 
