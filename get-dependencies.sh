@@ -7,9 +7,11 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    kvantum       \
-    lxqt-qtplugin \
-    qt6ct         \
+    kvantum        \
+    lxqt-qtplugin  \
+    pipewire-audio \
+    pipewire-jack  \
+    qt6ct          \
     tokodon
 
 echo "Installing debloated packages..."
